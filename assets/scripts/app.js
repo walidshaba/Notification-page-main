@@ -4,7 +4,8 @@ const notify = document.querySelectorAll('.notify');
 const unreadIcon = document.getElementsByTagName('i');
 
 const markAsReadHandler = () => {
-  notificationNumber.textContent = '0';
+  notificationNumber.style.display = 'none';
+
   for (noti of notify) {
     if (noti.classList.contains('read')) {
       continue;

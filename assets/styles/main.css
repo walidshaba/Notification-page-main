@@ -146,6 +146,10 @@ section .notifications {
   color: var(--blue);
 }
 
+.info p .chess {
+  color: var(--blue);
+}
+
 .info .message {
   border: solid 1px var(--lightGrayishBlue1);
   border-radius: 5px;
@@ -163,4 +167,8 @@ section .notifications {
 .notify .info.Kimberly img {
   cursor: pointer;
   margin: 0;
+}
+
+@media screen and (min-width: 375px) {
+  
 }
