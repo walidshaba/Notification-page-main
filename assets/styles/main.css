@@ -172,6 +172,9 @@ section .notifications {
   main {
     padding: 0;
   }
+  main section {
+    padding: 30px 0 0;
+  }
   .notifications .notify {
     padding: 10px;
   }
@@ -189,7 +192,7 @@ section .notifications {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 10px 0 0;
+    padding: 30px 0 0;
   }
   section .noti-ident {
     display: flex;
