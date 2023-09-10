@@ -189,7 +189,7 @@ section .notifications {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    padding: 0 0;
+    padding: 10px 0 0;
   }
   section .noti-ident {
     display: flex;
